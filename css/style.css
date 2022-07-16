@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NS';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../font/NotoSansKR-Light.woff2) format('woff2'),
+         url(../font/NotoSansKR-Light.woff) format('woff'),
+         url(../font/NotoSansKR-Light.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'NS';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../font/NotoSansKR-DemiLight.woff2) format('woff2'),
+         url(../font/NotoSansKR-DemiLight.woff) format('woff'),
+         url(../font/NotoSansKR-DemiLight.otf) format('opentype');
+  }
+  @font-face {
+     font-family: 'NS';
+     font-style: normal;
+     font-weight: 400;
+     src: url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+          url(../font/NotoSansKR-Regular.woff) format('woff'),
+          url(../font/NotoSansKR-Regular.otf) format('opentype');
+  }
+  @font-face {
+     font-family: 'NS';
+     font-style: normal;
+     font-weight: 500;
+     src: url(../font/NotoSansKR-Medium.woff2) format('woff2'),
+          url(../font/NotoSansKR-Medium.woff) format('woff'),
+          url(../font/NotoSansKR-Medium.otf) format('opentype');
+  }
+  @font-face {
+     font-family: 'NS';
+     font-style: normal;
+     font-weight: 700;
+     src: url(../font/NotoSansKR-Bold.woff2) format('woff2'),
+          url(../font/NotoSansKR-Bold.woff) format('woff'),
+          url(../font/NotoSansKR-Bold.otf) format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'NS';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../font/NotoSansKR-Black.woff2) format('woff2'),
+         url(../font/NotoSansKR-Black.woff) format('woff'),
+         url(../font/NotoSansKR-Black.otf) format('opentype');
+  }
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: #333;}
+em{font-style: normal;}
+body{font-family: 'NS'; font-size: 10px;}
+
+/*guide*/
+.inner{max-width: 1920px; width: 100%; margin: 0 auto ; padding: 0 2rem}
+.h2-tit{margin: 100px 0; text-align: center; font-size: 60px; color: #001d3d;}
+.h3-tit{margin-bottom: 80px; font-size: 60px;}
+.h4-tit{margin-bottom: 40px; font-size: 38px;}
+.h4-tit + p{margin-bottom: 40px;}
+
+/*main*/
+.main {position: relative; display: flex; align-items: center; justify-content: center; width: 100%; height: 100vh;  padding: 0 50px;}
+.main img{max-width: 847px; width: 100%;}
+.scroll{display: block; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); padding: 5px 15px; border-radius: 8px; border: 1px solid #001d3d; font-size: 18px; color: #001d3d; overflow: hidden;}
+.scroll::before{position: absolute; content: "Scroll"; top: 0; left: 0; width: 100%; height: 100%; background: transparent; animation: bg 3s infinite; padding: 5px 15px; box-sizing: border-box;}
+
+@keyframes bg{
+     0%{  
+          height: 0%;
+          background: transparent;
+     }
+     50%{
+          height: 100%;
+          background: #00326a;
+          color: #fff;
+     }
+     100%{
+          height: 0;
+          background: transparent;
+     }
+}
+
+/*info*/
+.info{width: 100%; height: 100%; display: flex; align-items: stretch; justify-content: space-between; color: #fff; }
+.info .left{flex: 1; padding: 10% 100px; background: #00326a; text-align: right;}
+.info .right{flex: 1; padding: 10% 100px; background: #001d3d; text-align: left;}
+.info .left .inner{max-width: 960px; width: 100%; float: right;}
+.info .right .inner{max-width: 960px; width: 100%; float: left;}
+.info article .con-p{font-size: 18px; font-weight: 200; color: #fff;}
+
+/*works*/
+.works article{display: flex; align-items: center; margin-bottom: 200px;}
+.works article .left{width: 50%;}
+.works article .right{width: 50%; margin-top: 30px; padding: 0 2% 0 8%;}
+.works article img{display: block; max-width: 805px; width: 100%; margin: 0 auto;}
+.works article strong{display: block;  font-size: 40px; font-weight: 400; color: rgba(0,50,106,.8);}
+.works article strong em{display: inline-block; margin-right: 25px; font-style: normal; font-size: 60px; color: #00326a; }
+.works article dl{display: inline-flex; flex-wrap: wrap;  margin: 80px 0 70px; color: #333; font-size: 24px;}
+.works article dl dt{width: 50%;}
+.works article dl dd{width: 50%;}
+.con-p{color: #333; font-size: 20px;}
+.works article .tool{margin: 50px 0 34px; display: flex; flex-wrap: wrap;}
+.works article .tool span{display: block; margin: 5px; padding: 5px 20px; color: #001d3d; border: 1px solid #001d3d; border-radius: 15px; font-size: 14px;}
+.works article .linkBtn{display: inline-block; max-width: 220px; width: 100%; margin: 5px; text-align: center; padding: 20px 0; border-radius: 5px; background: rgba(0,50,106,.9); color: #fff; font-size: 24px;}
+
+.otherMoreBox {flex-direction: column; justify-content: center;}
+.otherMoreBox a{display: block; margin-bottom: 50px; font-weight: 400; color: #333; font-size: 40px; border-bottom: 1px solid transparent}
+.otherMoreBox a:hover{border-bottom: 1px solid #333;}
+
+/*contect*/
+.contect{padding: 0 20px 100px; text-align: center;}
+.contect .con-p{margin-bottom: 100px;}
+
+@media screen and (max-width: 1000px){
+     /* .main{height: auto;} */
+     .info{flex-direction: column; height: auto;}
+     .works article{flex-direction: column; margin-bottom: 100px;}
+     .works article .left,
+     .works article .right{width: 100%; padding: 0 20px; text-align: center;}
+     .info .left, 
+     .info .right{ padding: 10% 20px; text-align: center;}
+     .info article .con-p{font-size: 16px;}
+     .h2-tit,
+     .h3-tit{margin-bottom: 40px; font-size: 30px;}
+     .h4-tit{font-size: 22px; margin-bottom: 20px;}
+     .info article p{font-size: 16px;}
+     .h4-tit + p{ margin-bottom: 30px;}
+     .works article img{ width: 100%;}
+     .works article:last-child img {width: calc(100% + 40px); margin-left: -20px; margin-right: -20px;}
+     .works article strong{font-size: 20px;}
+     .works article strong em{margin-right: 6px; font-size: 30px;}
+     .works article dl{margin: 20px 0; font-size: 16px;}
+     .works article dl dt{width: 40%;}
+     .works article dl dd{width: 60%;}
+     .con-p{font-size: 16px;}
+     .works article .tool{margin: 15px 0; justify-content: center;}
+     .works article .tool span{ padding: 3px 12px;}
+     .works article .linkBtn{max-width: 100%; padding: 12px 0; font-size: 18px;}
+     .contect .con-p{margin-bottom: 50px;}
+
+     .otherMoreBox a{margin-bottom: 20px; font-size: 22px;}
+}
