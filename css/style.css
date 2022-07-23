@@ -106,7 +106,7 @@ br.mo{display: none;}
 .works article dl dd{width: 50%;}
 .con-p{color: #333; font-size: 20px;}
 .works article .tool{margin: 50px 0 34px; display: flex; flex-wrap: wrap;}
-.works article .tool span{display: block; margin: 5px; padding: 5px 20px; color: #001d3d; border: 1px solid #001d3d; border-radius: 15px; font-size: 14px;}
+.works article .tool span{display: block; margin: 5px; padding: 5px 20px; border-radius: 15px; font-size: 14px; background: rgba(100, 222, 207, 1); color: #fff;}
 .works article .linkBtn{display: inline-block; max-width: 220px; width: 100%; margin: 5px; text-align: center; padding: 20px 0; border-radius: 5px; background: rgba(0,50,106,.9); color: #fff; font-size: 24px; transition: all .5s;}
 .works article .linkBtn:hover{background: #2f6cb1;}
 
