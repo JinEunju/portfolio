@@ -54,6 +54,8 @@
 a{text-decoration: none; color: #333;}
 em{font-style: normal;}
 body{font-family: 'NS'; font-size: 10px;}
+br.pc{display: block;}
+br.mo{display: none;}
 
 /*guide*/
 .inner{max-width: 1920px; width: 100%; margin: 0 auto ; padding: 0 2rem}
@@ -117,6 +119,8 @@ body{font-family: 'NS'; font-size: 10px;}
 .contect .con-p{margin-bottom: 100px;}
 
 @media screen and (max-width: 1000px){
+    br.pc{display: none;}
+    br.mo{display: block;}
      /* .main{height: auto;} */
      .info{flex-direction: column; height: auto;}
      .works article{flex-direction: column; margin-bottom: 100px;}
