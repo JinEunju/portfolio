@@ -112,7 +112,7 @@ br.mo{display: none;}
 
 .otherMoreBox {flex-direction: column; justify-content: center;}
 .otherMoreBox a{display: block; margin-bottom: 30px; font-weight: 400; color: #333; font-size: 30px; border-bottom: 1px solid transparent}
-.otherMoreBox a:hover{border-bottom: 1px solid #333;}
+.otherMoreBox a:hover{border-bottom: 1px solid rgba(100, 222, 207, 1); color: rgba(100, 222, 207, 1);}
 
 /*contect*/
 .contect{padding: 0 20px 100px; text-align: center;}
