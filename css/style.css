@@ -109,7 +109,7 @@ body{font-family: 'NS'; font-size: 10px;}
 .works article .linkBtn:hover{background: #2f6cb1;}
 
 .otherMoreBox {flex-direction: column; justify-content: center;}
-.otherMoreBox a{display: block; margin-bottom: 50px; font-weight: 400; color: #333; font-size: 40px; border-bottom: 1px solid transparent}
+.otherMoreBox a{display: block; margin-bottom: 30px; font-weight: 400; color: #333; font-size: 30px; border-bottom: 1px solid transparent}
 .otherMoreBox a:hover{border-bottom: 1px solid #333;}
 
 /*contect*/
@@ -144,5 +144,5 @@ body{font-family: 'NS'; font-size: 10px;}
      .works article .linkBtn{max-width: 100%; margin: 5px 0; padding: 12px 0; font-size: 18px;}
      .contect .con-p{margin-bottom: 50px;}
 
-     .otherMoreBox a{margin-bottom: 20px; font-size: 22px;}
+     .otherMoreBox a{margin-bottom: 20px; font-size: 20px;}
 }
