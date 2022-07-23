@@ -98,7 +98,7 @@ body{font-family: 'NS'; font-size: 10px;}
 .works article .right{width: 50%; margin-top: 30px; padding: 0 2% 0 8%;}
 .works article img{display: block; max-width: 805px; width: 100%; margin: 0 auto;}
 .works article strong{display: block;  font-size: 40px; font-weight: 400; color: rgba(0,50,106,.8);}
-.works article strong em{display: inline-block; margin-right: 25px; font-style: normal; font-size: 60px; color: #00326a; }
+.works article strong em{display: inline-block; margin-right: 25px; font-style: normal; font-size: 45px; color: #00326a; }
 .works article dl{display: inline-flex; flex-wrap: wrap;  margin: 80px 0 70px; color: #333; font-size: 24px;}
 .works article dl dt{width: 50%;}
 .works article dl dd{width: 50%;}
@@ -121,9 +121,10 @@ body{font-family: 'NS'; font-size: 10px;}
      .info{flex-direction: column; height: auto;}
      .works article{flex-direction: column; margin-bottom: 100px;}
      .works article .left,
-     .works article .right{width: 100%; padding: 0 20px; text-align: center;}
+     .works article .right{width: 100%; padding: 0; text-align: center;}
      .info .left, 
      .info .right{ padding: 10% 20px; text-align: center;}
+     .info .inner{padding: 0;}
      .info article .con-p{font-size: 16px;}
      .h2-tit,
      .h3-tit{margin-bottom: 40px; font-size: 30px;}
@@ -132,7 +133,7 @@ body{font-family: 'NS'; font-size: 10px;}
      .h4-tit + p{ margin-bottom: 30px;}
      .works article img{ width: 100%;}
      .works article:last-child img {width: calc(100% + 40px); margin-left: -20px; margin-right: -20px;}
-     .works article strong{font-size: 20px;}
+     .works article strong{font-size: 25px;}
      .works article strong em{margin-right: 6px; font-size: 30px;}
      .works article dl{margin: 20px 0; font-size: 16px;}
      .works article dl dt{width: 40%;}
@@ -140,7 +141,7 @@ body{font-family: 'NS'; font-size: 10px;}
      .con-p{font-size: 16px;}
      .works article .tool{margin: 15px 0; justify-content: center;}
      .works article .tool span{ padding: 3px 12px;}
-     .works article .linkBtn{max-width: 100%; padding: 12px 0; font-size: 18px;}
+     .works article .linkBtn{max-width: 100%; margin: 5px 0; padding: 12px 0; font-size: 18px;}
      .contect .con-p{margin-bottom: 50px;}
 
      .otherMoreBox a{margin-bottom: 20px; font-size: 22px;}
