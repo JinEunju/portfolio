@@ -119,7 +119,7 @@ br.mo{display: none;}
 .contect .con-p{margin-bottom: 100px;}
 
 /*top*/
-.btn-top {display: block; position: fixed; right: 40px; bottom: 40px; padding: 34px 0 19px; width: 60px; height: 60px; border-radius: 50%; font-size: 1.6rem; color: #fff; text-align: center; z-index: 118;
+.btn-top {display: block; position: fixed; right: 40px; bottom: 40px; padding: 21px 0 0; width: 60px; height: 60px; border-radius: 50%; font-size: 16px; color: #fff; text-align: center; z-index: 118;
 background: rgba(100, 222, 207, 1); }
 
 @media screen and (max-width: 1000px){
