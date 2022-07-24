@@ -264,6 +264,19 @@ function mainscroll(){
         $('html,body').stop().animate({'scrollTop':about_pos},500);
     });
 }
+onScrollTop();
+function onScrollTop() {
+	if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+		$('.btn-top').show();
+	} else {
+		$('.btn-top').hide()
+	}
+}
+
+$('.btn-top').click(function (event) {
+		event.preventDefault();
+		$('html, body').animate({ scrollTop: 0 }, 500);
+	});
     </script>
 </body>
 </html>
